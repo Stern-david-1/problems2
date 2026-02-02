@@ -73,7 +73,11 @@ header {
 
 .bouton1 span:last-child {
   color: #c62828;
+  border-radius: 20px;
+  box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
 }
+
+
 
 /*
     #3 
