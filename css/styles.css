@@ -57,6 +57,8 @@ header {
   /* 
     #1 
     Arrondir les coins des boutons à 20px */
+    
+    border-radius: 20px;
 
   /*
       #2 
@@ -69,12 +71,13 @@ header {
       Référence pour l'ombre :
         https://www.alsacreations.com/tuto/lire/1338-css3-box-shadow-ombre.html
     */
+    box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .bouton1 span:last-child {
   color: #c62828;
-  border-radius: 20px;
-  box-shadow: 3px 10px 5px rgba(0, 0, 0, 0.2);
+  
+  
 }
 
 
@@ -91,9 +94,14 @@ header {
             https://www.alsacreations.com/tuto/lire/1338-css3-box-shadow-ombre.html
 */
 
+section .bouton:hover{
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
 .bouton1 {
   display: flex;
   justify-content: space-between;
+  
 
   /*
         #4 
